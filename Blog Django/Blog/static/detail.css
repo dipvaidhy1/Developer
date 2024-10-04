@@ -1,0 +1,119 @@
+body{
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.072);
+}
+#blog{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(0, 185, 192);
+    display: flex;
+    padding-left: 30px;
+    padding-right: 800px;
+    color: rgb(14, 25, 121);
+    border-bottom: 2px solid yellow;
+      
+}
+
+#search{
+    font-size: 25px;
+}
+
+#search-btn{
+    background-color: #3e761b;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    padding-bottom: 6px;
+    border: 1px solid #dae2d50a;
+    border-radius: 10px;
+    align-self: center;
+
+}
+
+nav{
+    text-align: end;
+    padding-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px 15px 8px 15px;
+    background-color: hwb(250 34% 21%);
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    /* border: 1px solid rgb(106, 87, 201); */
+    border-radius: 10px;
+}
+
+section{
+    background-color: rgb(50, 49, 49);
+    border: 1px solid rgb(8, 6, 6);
+    border-bottom: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.card-title {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 35px;
+    background-color: rgb(84, 85, 87);
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    /* border-bottom: 2px solid rgb(255, 234, 0); */
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#img{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    display: block;
+    /* border: 2px solid rgba(0, 0, 0, 0.186); */
+    border-radius: 15px;
+   
+}
+
+.card-description{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5px;
+    text-align: justify;
+    word-spacing: -3px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border: 2px solid black;
+    border-radius: 10px ;
+    margin-left: 0;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.card-description::first-letter{
+    font-size: 35px;
+    color: #121211;
+}
+
+#footer{
+    max-width: 100%;
+    max-height: 100px;
+    background-color: rgb(50, 49, 49);
+    border: 1px solid rgb(169, 245, 55);
+    color: wheat;
+    font-size: 25px;    
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blog Post</title>
+    <link rel="stylesheet" href="{% static 'addpost.css' %}">
+</head>
+<body>
+    <h1>Add Blog Post</h1>
+    <form method="POST" action="/add-post/">
+        {% csrf_token %}
+        <label for="blogTitle">Blog Title:</label>
+        <input type="text" id="blogTitle" name="blogTitle" required><br>
+        <br>
+        <label for="blogImage">Blog Image:</label>
+        <input type="file" id="blogImage" name="blogImage" accept="image/*" required> 
+        <br>
+        <br>
+        <label for="blogDescription">Blog Description:</label>
+        <textarea id="blogDescription" name="blogDescription" rows="4" required></textarea>
+        
+        <button type="submit">Add Post</button>
+    </form>
+</body>
+</html>
